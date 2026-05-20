@@ -1,31 +1,30 @@
 #include <iostream>
-//function menghitung gaji
+using namespace std;
+
+	struct pegawai {
+		int waktu;
+		int honor;
+	};
+
 float gaji(float lembur){
 	return lembur*10000;
 }
 
 int main() {
-	cout<<"	======================================\nPENENTUAN HONOR HARIAN PEGAWAI HONORER\n======================================";
-		
-	struct pegawai {
-		string nama;
-		int waktu;
-		int honor;
-	};
-	pegawaiiqbal [jumlah];
+	cout<<"======================================\nPENENTUAN HONOR HARIAN PEGAWAI HONORER\n======================================";
 	
 	int jumlah;
-	cout<<"Berapa pegawai yang akan didata?";
-	cin>>jumlah; 
+	cout<<"\n\nBerapa pegawai yang akan didata\t:";
+	cin>>jumlah;
 	
-	for (int f=1;f<=jumlah;f++){
-		cout<<"Masukkan nama karyawan ke "+f"\t:";
-		cin >>iqbal[f].nama;
-		cout<<"Berapa jam karyawan "+f+" bekerja?";
+	pegawai iqbal [jumlah];
+	
+	for (int f=0;f<jumlah;f++){
+		cout<<"\nBerapa jam pegawai ke "<<f+1<<" bekerja\t:";
 		cin>> iqbal[f].waktu;
 		iqbal[f].honor=80000+10000*(iqbal[f].waktu-8);
+		cout<<"------------------------------------";
 	}
 	
 	
-
 }
