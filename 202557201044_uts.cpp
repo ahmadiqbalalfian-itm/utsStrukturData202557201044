@@ -26,5 +26,8 @@ int main() {
 		cout<<"------------------------------------";
 	}
 	
-	
+		cout<<"\n no.\twaktu\t\thonor\n";
+	for(int i=0;i<jumlah;i++){
+		cout<<i+1<<"\t"<<iqbal[i].waktu<<"\t\t"<<iqbal[i].honor<<"\n";
+	}
 }
