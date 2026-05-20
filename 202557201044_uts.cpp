@@ -5,24 +5,27 @@ float gaji(float lembur){
 }
 
 int main() {
-	cout<<"==============================\nPENENTUAN GAJI PEGAWAI HONORER\n==============================";
+	cout<<"	======================================\nPENENTUAN HONOR HARIAN PEGAWAI HONORER\n======================================";
+		
+	struct pegawai {
+		string nama;
+		int waktu;
+		int honor;
+	};
+	pegawaiiqbal [jumlah];
 	
 	int jumlah;
 	cout<<"Berapa pegawai yang akan didata?";
 	cin>>jumlah; 
 	
-	struct pegawai {
-		string nama;
-		int waktu;
-	};
-	
-	pegawaipgw;
-	
 	for (int f=1;f<=jumlah;f++){
-		
-		cout<<"Berapa lama karyawan "+f+" bekerja?";
-		cin>>
+		cout<<"Masukkan nama karyawan ke "+f"\t:";
+		cin >>iqbal[f].nama;
+		cout<<"Berapa jam karyawan "+f+" bekerja?";
+		cin>> iqbal[f].waktu;
+		iqbal[f].honor=80000+10000*(iqbal[f].waktu-8);
 	}
+	
 	
 
 }
