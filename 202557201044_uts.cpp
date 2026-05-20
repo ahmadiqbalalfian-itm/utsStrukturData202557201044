@@ -9,8 +9,20 @@ int main() {
 	
 	int jumlah;
 	cout<<"Berapa pegawai yang akan didata?";
-	cin>>jumlah;
+	cin>>jumlah; 
 	
-	int waktu;
-	float lembur = 60/waktu;
+	struct pegawai {
+		string nama;
+		int waktu;
+	};
+	
+	pegawaipgw;
+	
+	for (int f=1;f<=jumlah;f++){
+		
+		cout<<"Berapa lama karyawan "+f+" bekerja?";
+		cin>>
+	}
+	
+
 }
