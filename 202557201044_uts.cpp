@@ -5,6 +5,12 @@ float gaji(float lembur){
 }
 
 int main() {
-	float waktu;
+	cout<<"==============================\nPENENTUAN GAJI PEGAWAI HONORER\n==============================";
+	
+	int jumlah;
+	cout<<"Berapa pegawai yang akan didata?";
+	cin>>jumlah;
+	
+	int waktu;
 	float lembur = 60/waktu;
 }
