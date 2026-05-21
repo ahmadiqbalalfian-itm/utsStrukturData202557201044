@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 	struct pegawai {
@@ -26,8 +27,12 @@ int main() {
 		cout<<"------------------------------------";
 	}
 	
-		cout<<"\n no.\twaktu\t\thonor\n";
+	system ("cls");
+	
+	cout<<"======================================\nPENENTUAN HONOR HARIAN PEGAWAI HONORER\n======================================\n";
+	cout<<setiosflags(ios::left)<<setw(3)<<"No."<<setw(10)<<"Jam Kerja"<<setw(20)<<"Honor\n";
+		
 	for(int i=0;i<jumlah;i++){
-		cout<<i+1<<"\t"<<iqbal[i].waktu<<"\t\t"<<iqbal[i].honor<<"\n";
+		cout<<setiosflags(ios::left)<<setw(3)<<i+1<<setw(10)<<iqbal[i].waktu<<setw(20)<<iqbal[i].honor<<"\n";
 	}
 }
