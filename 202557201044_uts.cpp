@@ -30,7 +30,7 @@ int main() {
 	system ("cls");
 	
 	cout<<"======================================\nPENENTUAN HONOR HARIAN PEGAWAI HONORER\n======================================\n";
-	cout<<setiosflags(ios::left)<<setw(3)<<"No."<<setw(10)<<"Jam Kerja"<<setw(20)<<"Honor\n";
+	cout<<setiosflags(ios::left)<<setw(3)<<"No."<<setw(10)<<"Jam Kerja"<<setw(20)<<"Honor"<<"\n";
 		
 	for(int i=0;i<jumlah;i++){
 		cout<<setiosflags(ios::left)<<setw(3)<<i+1<<setw(10)<<iqbal[i].waktu<<setw(20)<<iqbal[i].honor<<"\n";
