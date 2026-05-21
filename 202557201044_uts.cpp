@@ -3,11 +3,10 @@
 using namespace std;
 
 	struct pegawai {
-		int waktu;
-		int honor;
+		int waktu,honor;
 	};
 
-float gaji(float lembur){
+float gaji(int lembur){
 	return lembur*10000;
 }
 
@@ -23,7 +22,8 @@ int main() {
 	for (int f=0;f<jumlah;f++){
 		cout<<"\nBerapa jam pegawai ke "<<f+1<<" bekerja\t:";
 		cin>> iqbal[f].waktu;
-		iqbal[f].honor=80000+10000*(iqbal[f].waktu-8);
+		
+		iqbal[f].honor=80000+ gaji(iqbal[f].waktu-8);
 		cout<<"------------------------------------";
 	}
 	
